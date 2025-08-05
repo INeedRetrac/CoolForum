@@ -1,0 +1,66 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background and font */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Container for all content */
+.container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Section headers */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00bfff;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+/* Paragraph text */
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+}
